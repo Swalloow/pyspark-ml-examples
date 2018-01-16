@@ -1,2 +1,5 @@
 .idea/
 spark-warehouse/
+*.crc
+*.gzip
+.ipynb_checkpoints/
