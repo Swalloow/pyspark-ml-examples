@@ -12,8 +12,10 @@ docker run -it --rm -p 8888:8888 --name jupyter \
 ## Index
 - **spark-ml-starter**: EDA, Preprocessing, Modeling, Evaluation, Tuning
 - **spark-ml-gbt-pipeline**: GBTClassifier, Pipeline
-- **spark-ml-explicit-recommendation**: Movie recommendation using Collaborative Filtering
+- **spark-ml-recommendation-explicit**: Movie recommendation with Explicit Collaborative Filtering
+- **spark-ml-recommendation-implicit**: Music recommendation with Implicit Collaborative Filtering
 
 ## Dataset
 - Kaggle Titanic Dataset: https://www.kaggle.com/c/titanic/data
 - MovieLens Dataset: https://grouplens.org/datasets/movielens/100k/
+- Last.fm Music Dataset: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
