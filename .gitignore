@@ -3,3 +3,6 @@ spark-warehouse/
 *.crc
 *.gzip
 .ipynb_checkpoints/
+.cache/
+.ipython/
+.local/

@@ -5,9 +5,8 @@ Spark ML Tutorial and Examples for Beginners
 Use Docker Images : https://hub.docker.com/r/jupyter/pyspark-notebook/
 
 ```
-$ docker pull jupyter/pyspark-notebook
-$ docker run -it --rm -p 8888:8888 --name jupyter -v /YOUR_DOWNLOAD_PATH/pyspark-ml-examples:/home/jovyan \
-jupyter/pyspark-notebook start-notebook.sh
+docker run -it --rm -p 8888:8888 --name jupyter \
+-v /YOUR_DOWNLOAD_PATH/pyspark-ml-examples:/home/jovyan jupyter/pyspark-notebook start-notebook.sh
 ```
 
 ## Index
